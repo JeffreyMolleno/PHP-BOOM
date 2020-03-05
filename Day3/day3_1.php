@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
+    <title>Toy Problem 1 Day 3</title>
+</head >
 
 <body>
     <?php
@@ -37,11 +37,11 @@
         $A = 10;
         $B = 7;
 
-        echo $A." + ".$B." = ".$imple->add($A,$B) . "<br>";
-        echo $A." - ".$B." = ".$imple->subtract($A,$B) . "<br>";
-        echo $A." * ".$B." = ".$imple->multiply($A,$B) . "<br>";
-        echo $A." / ".$B." = ".$imple->divide($A,$B) . "<br>";
-        echo $A." % ".$B." = ".$imple->modulo($A,$B) . "<br>";
+        echo $A."&nbsp  +  &nbsp".$B."&nbsp  =  &nbsp".$imple->add($A,$B) . "<br>";
+        echo $A."&nbsp  -  &nbsp".$B."&nbsp  =  &nbsp".$imple->subtract($A,$B) . "<br>";
+        echo $A."&nbsp  *  &nbsp".$B."&nbsp  =  &nbsp".$imple->multiply($A,$B) . "<br>";
+        echo $A."&nbsp  /  &nbsp".$B."&nbsp  =  &nbsp".$imple->divide($A,$B) . "<br>";
+        echo $A."&nbsp  %  &nbsp".$B."&nbsp  =  &nbsp".$imple->modulo($A,$B) . "<br>";
 
         
     ?>
