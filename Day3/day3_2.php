@@ -63,7 +63,7 @@
         Subtract {$delta->subtract(4)}. Value is now {$variable}.                   <br>
         Multiply by {$delta->multiply(5)}. Value is now {$variable}.                <br>
         Divide by {$delta->divide(3)}. Value is now {$variable}.                    <br>
-        Increment value by one{$delta->increment(1)}. Value is now {$variable}.    <br>
+        Increment value by one{$delta->increment(1)}. Value is now {$variable}.     <br>
         Decrement value by one{$delta->decrement(1)}. Value is now {$variable}.";
     ?>
 </body>
