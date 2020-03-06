@@ -10,8 +10,8 @@
 <body>
     <?php
 
-        //given that all angle comply with a 90 degree angle this implies that it by definition a rectangle
-        //if not then it is a rhombus.
+        //given that all angle comply with a 90 degree angle this then implies that by definition it is a rectangle
+        //if not then check for the presence of the property that define a rhombus.
 
         class quadrilaterals{
 
