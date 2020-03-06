@@ -71,7 +71,7 @@
         }
 
 
-        //this approach uses the pythagorean theorem on identifying the given value as a rectangle or a rhombus if the opposite and adjacent sides have the same length
+        //this approach uses the pythagorean theorem on identifying the given value as a rectangle or a rhombus.
         class pythagorean {
             public $a;
             public $b;
