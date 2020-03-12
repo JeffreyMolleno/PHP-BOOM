@@ -2,7 +2,7 @@
 
 class Car {
 
-    protected $color, $model, $brand;
+    private $color, $model, $brand;
 
     public function __construct($color, $model, $brand){
         $this->color = $color;

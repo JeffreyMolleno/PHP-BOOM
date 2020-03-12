@@ -4,14 +4,13 @@
 
     class MentorCar extends Car{
         public function specs(){
-            return $this->color.' '.$this->model.' '.$this->brand.'<br>';
+            return $this->getColor().' '.$this->getModel().' '.$this->getBrand().'<br>';
         }
     }
     
-    
     class StudentCar extends Car{
         public function specs(){
-            return $this->color.' '.$this->model.' '.$this->brand.'<br>';
+            return $this->getColor().' '.$this->getModel().' '.$this->getBrand().'<br>';
         }
     }
 
