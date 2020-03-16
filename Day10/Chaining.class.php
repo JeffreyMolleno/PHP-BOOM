@@ -35,12 +35,11 @@
     }
 
     public function getInfo(){
-        return print('I am '.$this->name.'. A trainee under the'. $this->course.' course. Conscientiously guided by our mentor'. $this->mentor.'. Working hours '.$this->office_hours.'. My given company email is '.$this->email.'. Conctact details include '.$this->contact);
+        return print('I am '.$this->name.'. A trainee under the '. $this->course.' course. Conscientiously guided by our mentor '. $this->mentor.'. Working hours '.$this->office_hours.'. My given company email is '.$this->email.'. Conctact details include '.$this->contact);
     }
 
  }
 
-
- $pasaway = new Course('PHP','Yow Molleno');
+ $pasaway = new Course('PHP','Jeff Molleno');
 
  $pasaway->setBatch(1)->setMentor('Jino')->setOfficeHours('0900-1800')->setEmail('jeffrey.molleno@boom.camp')->setContact('09205683083')->getInfo();
