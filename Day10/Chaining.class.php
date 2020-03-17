@@ -18,7 +18,7 @@
     }
 
     public function getMentor(){
-        return self::mentor;
+        return parent::mentor;
     }
 
     public function setOfficeHours($office_hours){
@@ -37,7 +37,7 @@
     }
 
     public function getInfo(){
-        return print('I am '.$this->name.'. A trainee under the '. $this->course.' course of batch '.$this->batch.'. Conscientiously guided by our mentor '. self::mentor.'. Working hours '.$this->office_hours.'. My given company email is <a href="#">'.$this->email.'</a>. Conctact details include '.$this->contact).'.';
+        return print('I am '.$this->name.'. A trainee under the '. $this->course.' course of batch '.$this->batch.'. Conscientiously guided by our mentor '. parent::mentor.'. Working hours '.$this->office_hours.'. My given company email is <a href="#">'.$this->email.'</a>. Conctact details include '.$this->contact).'.';
     }
 
  }
