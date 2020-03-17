@@ -1,6 +1,9 @@
 <?php
 
- class Course{
+ class php{
+     const mentor = 'Jino';
+ }
+ class Course extends php{
 
     private $course, $name, $mentor, $batch, $office_hours, $email, $contact;
     
@@ -14,9 +17,8 @@
         return $this;
     }
 
-    public function setMentor($mentor){
-        $this->mentor = $mentor;
-        return $this;
+    public function getMentor(){
+        return self::mentor;
     }
 
     public function setOfficeHours($office_hours){
@@ -35,11 +37,11 @@
     }
 
     public function getInfo(){
-        return print('I am '.$this->name.'. A trainee under the '. $this->course.' course. Conscientiously guided by our mentor '. $this->mentor.'. Working hours '.$this->office_hours.'. My given company email is '.$this->email.'. Conctact details include '.$this->contact);
+        return print('I am '.$this->name.'. A trainee under the '. $this->course.' course of batch '.$this->batch.'. Conscientiously guided by our mentor '. self::mentor.'. Working hours '.$this->office_hours.'. My given company email is <a href="#">'.$this->email.'</a>. Conctact details include '.$this->contact).'.';
     }
 
  }
 
  $pasaway = new Course('PHP','Jeff Molleno');
 
- $pasaway->setBatch(1)->setMentor('Jino')->setOfficeHours('0900-1800')->setEmail('jeffrey.molleno@boom.camp')->setContact('09205683083')->getInfo();
+ $pasaway->setBatch(2)->setOfficeHours('0900-1800')->setEmail('jeffrey.molleno@boom.camp')->setContact('09205683083')->getInfo();
